@@ -1,0 +1,17 @@
+name: RelativePlugin
+version: ${project.version}
+main: net.teamfruit.relativeplugin.RelativePlugin
+api-version: 1.15
+authors: [Kamesuta]
+description: 相対座標クラフト
+
+commands:
+  relative:
+    description: Relative Plugin commands
+    usage: /relative <on|off|king>
+    aliases: rl
+    permission: relative.manage
+permissions:
+  relative.manage:
+    description: Relative Operation
+    default: op
